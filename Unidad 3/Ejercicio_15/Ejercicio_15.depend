@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1623990098 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_15\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1623972014 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\listasimplementeenlazada\lista.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

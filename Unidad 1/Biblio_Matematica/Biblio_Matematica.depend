@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1638402810 source:c:\ejercicios\unidad 1\biblio_matematica\matematica.c
+	"matematica.h"
+
+1618689646 c:\ejercicios\unidad 1\biblio_matematica\matematica.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

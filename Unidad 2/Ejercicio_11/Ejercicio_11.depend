@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1632757520 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_11\main.c
+	"funciones.h"
+
+1632753579 d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_11\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Ejercicio_10/main.h"
+
+1632756821 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_10\funciones.c
+	"main.h"
+
+1632453699 d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_10\main.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1632753442 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_11\funciones.c
+	"funciones.h"
+

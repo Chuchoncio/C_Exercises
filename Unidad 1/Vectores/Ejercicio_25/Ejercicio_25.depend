@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1602073585 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\vectores\ejercicio_25\main.c
+	"main.h"
+
+1602073552 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\vectores\ejercicio_25\main.h
+	<stdio.h>
+	<stdlib.h>
+	<vectores.h>
+
+1602073173 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_vectores\vectores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

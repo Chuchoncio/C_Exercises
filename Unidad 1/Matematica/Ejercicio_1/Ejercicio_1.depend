@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1602028778 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\matematica\ejercicio_1\main.c
+	"main.h"
+
+1602028966 d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\matematica\ejercicio_1\main.h
+	<stdio.h>
+	<stdlib.h>
+	<matematica.h>
+
+1602029248 d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\biblio_matematica\matematica.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1602028778 source:c:\ejercicios\unidad 1\matematica\ejercicio_1\main.c
+	"main.h"
+
+1602028966 c:\ejercicios\unidad 1\matematica\ejercicio_1\main.h
+	<stdio.h>
+	<stdlib.h>
+	<matematica.h>
+
+1618689646 c:\ejercicios\unidad 1\biblio_matematica\matematica.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

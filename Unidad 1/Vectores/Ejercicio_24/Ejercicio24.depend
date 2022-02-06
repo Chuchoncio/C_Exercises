@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1601163513 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\ejercicio_24\ejercicio24\funciones.c
+	"funciones.h"
+
+1601162427 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\ejercicio_24\ejercicio24\funciones.h
+	<stdio.h>
+
+1601163300 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\ejercicio_24\ejercicio24\main.c
+	"main.h"
+
+1601161507 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\ejercicio_24\ejercicio24\main.h
+	<stdio.h>
+	"funciones.h"
+
+1601163300 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\vectores\ejercicio_24\main.c
+	"main.h"
+
+1602028119 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\vectores\ejercicio_24\main.h
+	<stdio.h>
+	<vectores.h>
+
+1602119002 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_vectores\vectores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

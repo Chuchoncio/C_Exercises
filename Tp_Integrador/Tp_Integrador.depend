@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1619832328 source:d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\main.c
+	"alumno.h"
+	"funciones.h"
+	"fecha.h"
+	"cadenas.h"
+
+1619223576 d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\main.h
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1619825190 d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\funciones.h
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+
+1618962922 d:\facultad en cuarentena\programacion i\ejercicios\fecha\fecha.h
+	<stdio.h>
+
+1619826565 source:d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\fecha.c
+	"fecha.h"
+
+1619826561 d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\fecha.h
+	<stdio.h>
+
+1619827976 d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\alumno.h
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1619827913 source:d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\alumno.c
+	"alumno.h"
+
+1619832664 source:d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\cadenas.c
+	"cadenas.h"
+
+1619831197 d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\cadenas.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1619825099 source:d:\facultad en cuarentena\programacion i\ejercicios\tp_integrador\funciones.c
+	"funciones.h"
+

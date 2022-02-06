@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1623801431 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usocoladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+
+1622592008 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\coladinamica\cola.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

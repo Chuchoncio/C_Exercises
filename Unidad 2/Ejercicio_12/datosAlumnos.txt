@@ -1,0 +1,5 @@
+   Apellido/s, Nombre/s  P. 1  P. 2 Prom.
+   ==================== ===== ===== =====
+ 0 Julian Hernan        10.00  8.00  9.00 
+ 1 Matias Pergola        5.00  9.00  7.00 
+                         7.50  8.50  8.00 

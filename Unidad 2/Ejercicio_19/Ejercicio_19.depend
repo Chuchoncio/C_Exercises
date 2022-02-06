@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1638035646 source:c:\ejercicios\unidad 2\ejercicio_19\funciones.c
+	"main.h"
+
+1638051210 c:\ejercicios\unidad 2\ejercicio_19\main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1638051722 source:c:\ejercicios\unidad 2\ejercicio_19\main.c
+	"main.h"
+

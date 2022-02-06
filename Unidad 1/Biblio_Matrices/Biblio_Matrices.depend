@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1605129215 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_matrices\matrices.c
+	"matrices.h"
+
+1605128118 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_matrices\matrices.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1618615236 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\biblio_matrices\matrices.c
+	"matrices.h"
+
+1618615002 d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\biblio_matrices\matrices.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+

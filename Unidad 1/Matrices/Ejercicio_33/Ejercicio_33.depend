@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1618357201 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\matrices\ejercicio_33\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrices.h"
+
+1618357227 d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\biblio_matrices\matrices.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1632254042 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

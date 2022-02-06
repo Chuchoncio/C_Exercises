@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1618962942 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\fecha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+
+1618962922 d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\fecha\fecha.h
+	<stdio.h>
+
+1618962922 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 1\fecha\fecha.c
+	"fecha.h"
+
+1620833270 source:d:\facultad en cuarentena\programacion i\ejercicios\fecha\fecha.c
+	"fecha.h"
+
+1620831949 d:\facultad en cuarentena\programacion i\ejercicios\fecha\fecha.h
+	<stdio.h>
+
+1620831936 source:d:\facultad en cuarentena\programacion i\ejercicios\fecha\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+

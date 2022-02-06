@@ -1,0 +1,5 @@
+41704776|Jose Perez|M|7.25|12/1/1999|R
+32709214|Mario Soso|M|4.52|5/5/1991|R
+38564126|Francisco Ortega|M|6.56|4/7/1995|A
+34926182|Juan Lucero|M|7.78|15/2/1993|A
+42251216|Fernanda Almada|F|9.00|5/10/2000|A

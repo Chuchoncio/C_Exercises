@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1638483158 source:c:\ejercicios\c++\ejercicio_14.1\src\persona.cpp
+	"Persona.h"
+
+1638483122 c:\ejercicios\c++\ejercicio_14.1\include\persona.h
+	<iostream>
+
+1638483327 source:c:\ejercicios\c++\ejercicio_14.1\main.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<list>
+	"Persona.h"
+

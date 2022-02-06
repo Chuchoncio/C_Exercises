@@ -1,0 +1,208 @@
+TP INTEGRADOR
+
+PRIMERA PARTE
+--------------------------------------------------------------------------------
+
+1-Armar un nuevo proyecto para el tp integrador.
+
+2-Definir estructuras/define/prototipos para alumno y fecha(en .h). Incluir la biblioteca de fecha realizada en clase para validar el formato y contenido de fecha.
+
+3-Dentro del .h definir las funciones de validación de campos de la estructura alumno y fecha.
+
+Condición para el ingreso válido de un registro/estructura
+
+Campo				Tipo			Validación	
+dni. (Clave)		long			10.000< dni < 100.000.000	//VALIDAR QUE LOS VALORES SEAN ENTRE EL RANGO 															//DEFINIDO
+apellido y nombre	Cadena de 40	Normalizar *1				//
+fecha de nacimiento	t_fecha	
+					Validación 		//VALIDAR QUE LA FECHA SEA VALIDA CON LA FUNCION DE BIBLIOTECA PROPIA DE FECHA
+					formal y < fecha
+					de proceso – 10 
+					años	
+sexo				char			‘F’ o ‘M’	//VALIDAR QUE LA ENTRADA SEA UNO DE ESTOS VALORES
+fecha de ingreso	t_fecha	Valida
+					ción 
+					formal, 		<= fecha de proceso y > fecha nacimiento
+carrera				Cadena de 4	
+									“INF”, “ELE”,“IND”, “ECO”,“DER”, “ADM”, “MED”, “EDF”, “FIL”.//VALIDAR QUE LA ENTRADA SEA UNO DE ESTOS VALORES
+Cantidad de materias 
+aprobadas			int	>= 0		
+Fecha de aprobación 
+de la última materia t_fecha		> fecha-ingreso y <= fecha de proceso. Si no se informa, 
+									asumir la fecha de ingreso.					//POR DEFECTO PONER FECHA DE INGRESO
+estado				char			Se genera en el alta como ‘R’.				//POR DEFECTO!!
+Fecha de baja		t_fecha			Se genera en el alta como 31/12/9999		//POR DEFECTO!!
+
+
+*1) Normalización del apellido y nombres, consistente en:
+•	El/Los apellido/s y nombre/s deben comenzar con letra mayúscula y luego continuar con minúscula.
+•	El/Los apellido/s deben estar separado/s del/los nombre/s por una coma. De no existir dicha coma, agregarla a continuación de la primera palabra.
+•	Cada palabra debe separarse por no más de un espacio.
+•	La cadena no debe tener espacios al inicio, ni al final de la misma
+
+ejemplo 1: 
+bPEPEbbGALLETAb // a modo de mostrar el blanco, la b para este ejemplo lo representa
+
+=> Normalizado debe quedar: 
+
+Pepe,bGalleta //Sin espacios en blanco al final y principio de la cadena
+
+ejemplo 2: 
+pePEBOtRoBgALLETAB // a modo de mostrar el blanco, la B para este ejemplo lo representa
+
+=> Normalizado debe quedar: 
+
+Pepe Otro,BGalleta //Sin espacios en blanco al final y principio de la cadena		 
+
+
+4-Crear un main, llamar a dos funcines:
+
+	a) Que pida ingreso los datos de la estructura alumno ingresarAlumno.
+	b) Desde ingresarAlumno llamar a otra función que valida los datos int* validarAlumno(tAlumno *, tfecha * proceso(actual)) según cuadro y que devuelve qué campos dieron error en el vector de enteros,
+	es decir
+	
+	Cada campo que la validación da error, la posición del vector se llena con 0, sino con 1
+	
+	ejemplo:
+		Si la validación del DNI dió error devuelve:
+			vecError[10][0,1,1,1,1,1]
+		si la validación del DNI y el apellido/nombre dan error devuelve:
+			vecError[10][0,0,1,1,1,1] //las dos posiciones con error en 0 y el resto en 1
+			
+5-Construir una función char menuMsjOpc(const char *msj, const char *opc) que utilice las funciones definidas arriba y retorne una opción válida.
+
+
+*******M E N U*******
+
+	i)Ingreso y validación del alumno
+	l)Listado de alumnos
+	e)Listado de alumnos con error
+	s)Salir
+
+Ingrese la opción deseada: 
+
+-------------------------------------------------------------------------------
+void llamarMenu(void)
+{
+
+    char opcion;
+    tFecha fec;
+
+    fec.anio=2021;
+    fec.mes=03;
+    fec.dia=01;
+
+    printf("\n \t\t\t\ M E N U \n");
+    do
+    {
+
+    opcion=menuMsjOpc("\n Elija una opcion: \n\n"
+						"I- Ingreso y validación del alumno"
+						"L- Listado de alumnos"
+						"E- Listado de alumnos con error"
+                        "S - Salir\n",
+                        "ILES");
+
+    opcion=toupper(opcion);
+
+    printf("\n La opción elegida es :%c \n",opcion);
+
+    switch(opcion)
+        {
+            case 'I':
+                        mostrarFechaDMA(&fec);
+                        break;
+            case 'L':   ingresarFechaDMA(&fec);
+                        break;
+			case 'E': 	listadoErroresSAlumno();
+						break;
+        }
+
+    } while (opcion!='S');
+}
+
+
+char menuMsjOpc(const char *msj, const char *opc)
+{
+    char opta;
+    int primerVez=1;
+
+    do
+    {
+
+        if(!primerVez)
+            printf("\n Opción Invalida,ingrese nueva opcion \n");
+
+        primerVez=0;
+        printf("%s",msj);
+        printf("\n Ingrese la opcion deseada del menu: \n ");
+        fflush(stdin);
+        scanf("%c", &opta);
+        opta=toupper (opta);
+    } while (strchr(opc,opta)==NULL);
+
+    return opta;
+}
+
+
+
+
+
+
+//Asigna la fecha de hoy o del proceso
+
+    time_t tiempo = time(NULL);             //devolverá el date actual en una variable de tipo "time_t"
+    struct tm *tlocal = localtime(&tiempo); //averiguaremos el date del sistema con la función localtime
+                                            //que recibe por parámetro un puntero a una variable time_t
+
+    fec2.anio=1900+tlocal->tm_year;
+    fec2.mes=1+tlocal->tm_mon;
+    fec2.dia=tlocal->tm_mday;
+
+
+
+
+
+
+
+
+
+
+
+char menuMsjOpc(const char *msj, const char *opc);
+
+
+
+char menuMsjOpc(const char *msj, const char *opc)
+{
+    char opta;
+    int primerVez=1;
+
+    do
+    {
+
+        if(!primerVez)
+            printf("\n Opción Invalida,ingrese nueva opcion \n");
+
+        primerVez=0;
+        printf("%s",msj);
+        printf("\n Ingrese la opcion deseada del menu: \n ");
+        fflush(stdin);
+        scanf("%c", &opta);
+        opta=toupper (opta);
+    } while (strchr(opc,opta)==NULL);
+
+    return opta;
+}
+
+
+
+
+
+
+
+
+		
+	
+	
+	

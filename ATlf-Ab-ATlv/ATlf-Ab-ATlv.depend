@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621454217 source:d:\facultad en cuarentena\programacion i\ejercicios\atlf-ab-atlv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

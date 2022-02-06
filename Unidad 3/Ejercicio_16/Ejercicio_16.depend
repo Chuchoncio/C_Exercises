@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1624747607 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_16\main.c
+	"funciones.h"
+
+1624407946 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\listasimplementeenlazada\lista.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1624745669 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_16\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1624745631 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_16\funciones.c
+	"funciones.h"
+
+1624747390 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_16\lista.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1626993510 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_16\lista.c
+	"lista.h"
+	"funciones.h"
+

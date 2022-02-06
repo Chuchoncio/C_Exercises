@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1626462552 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usoarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1626390154 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usoarbol\main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arbol.h"
+
+1626462259 d:\facultad en cuarentena\programacion i\ejercicios\tda\arbol\arbol.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

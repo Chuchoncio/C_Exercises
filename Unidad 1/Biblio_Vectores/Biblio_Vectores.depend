@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1602076165 source:d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_vectores\vectores.c
+	"vectores.h"
+
+1602076117 d:\facultad en cuarentena\programacion i\segundo cuatri\ejercicios\unidad 1\biblio_vectores\vectores.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

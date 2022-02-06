@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1620960018 source:d:\facultad en cuarentena\programacion i\ejercicios\mystring\main.c
+	"main.h"
+	<errno.h>
+
+1619135104 d:\facultad en cuarentena\programacion i\ejercicios\mystring\main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1620948913 d:\facultad en cuarentena\programacion i\ejercicios\mystring\funciones.h
+	<stdio.h>
+
+1620960457 source:d:\facultad en cuarentena\programacion i\ejercicios\mystring\funciones.c
+	"funciones.h"
+

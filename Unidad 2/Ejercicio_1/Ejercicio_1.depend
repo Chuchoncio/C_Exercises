@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1631661526 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_1\main.c
+	"main.h"
+
+1631660825 d:\facultad en cuarentena\programacion i\ejercicios\unidad 2\ejercicio_1\main.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

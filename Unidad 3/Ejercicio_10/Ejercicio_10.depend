@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1623369344 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\ejercicio_10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaDinamica.h"
+
+1623362610 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\piladinamica\piladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

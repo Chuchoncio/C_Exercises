@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1626386079 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usolde\main.c
+	"main.h"
+
+1626385021 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usolde\main.h
+	<stdio.h>
+	<stdlib.h>
+	"tipoProducto.h"
+	"listaDoble.h"
+
+1626378312 d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usolde\tipoproducto.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1626379733 d:\facultad en cuarentena\programacion i\ejercicios\tda\listadoble\listadoble.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1626379330 source:d:\facultad en cuarentena\programacion i\ejercicios\unidad 3\usolde\tipoproducto.c
+	"tipoProducto.h"
+

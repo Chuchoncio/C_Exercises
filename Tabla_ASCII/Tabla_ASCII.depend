@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618859623 source:d:\facultad en cuarentena\programacion i\ejercicios\tabla_ascii\main.c
+	<stdio.h>
+	<stdlib.h>
+
